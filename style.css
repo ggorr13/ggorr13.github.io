@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #ec7010b3;
+    background: #ec7010e0;
     border: 3px solid white;
 }
 
@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: inherit;
+    margin: 0 auto;
 }
 
 p {
@@ -44,4 +45,6 @@ a {
     border-radius: 5px;
     color: black;
     background: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
+
