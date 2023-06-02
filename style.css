@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #9ba5b6;
+    background: #ec7010;
     border: 3px solid white;
 }
 
@@ -42,6 +42,6 @@ a {
     border: 1px solid white;
     padding: 5px;
     border-radius: 5px;
-    color: #9ba5b6;
+    color: black;
     background: white;
 }
