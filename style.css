@@ -2,21 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;;
 }
 
 body {
     background: #9ba5b6;
+    border: 3px solid white;
 }
 
 .container {
     padding: 10px;
-    width: 100%;
-    height: 100vh;
+    max-width: 390px;
+    height: 99vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid white;
     text-align: inherit;
 }
 
@@ -33,4 +34,14 @@ p {
     bottom: 22px;
     width: 100%;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 15px 5px !important;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: #9ba5b6;
+    background: white;
 }
